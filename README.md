@@ -8,6 +8,16 @@ This funtion implements the methodology described in the paper
 
 -   Lee, H. and Patrangenaru, V. (2020). *Extrinsic Kernel Ridge Regression Classifier for Planar Kendall Shape Space* [*\[Arxiv\]*](https://arxiv.org/abs/1912.08202) [*\[Project Page\]*](https://hwiyoungstat.github.io/ShapeKRRC.html)
 
+Installation
+------------
+
+THis package can be installed with the 'devtools' package:
+
+``` r
+library(devtools)
+install_github("hwiyoungstat/ShapeKRRC")
+```
+
 Usage
 -----
 
@@ -43,7 +53,7 @@ The below is the graphical illustration of the dataset. The transparent and bold
 main <- grid.arrange(grobs=myplots, ncol=4)
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-3-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-4-1.png" style="display: block; margin: auto;" />
 
 ### Competing methods
 
@@ -63,7 +73,7 @@ ggplot(All_result1 , aes(x=Methods, y=F_1, fill=Methods))+ facet_grid(. ~ size, 
 geom_boxplot(lwd=0.2,position=position_dodge(1)) +ylab(expression(F[1]))
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-5-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-6-1.png" style="display: block; margin: auto;" />
 
 -   Results in terms of Precision, Recall, Average accuracy are given below.
 
@@ -85,4 +95,4 @@ ggplot(All_result1 , aes(x=N_sub, y=Value, color=Methods))+
           strip.background = element_rect(size=0.01))
 ```
 
-<img src="README_files/figure-markdown_github/unnamed-chunk-7-1.png" style="display: block; margin: auto;" />
+<img src="README_files/figure-markdown_github/unnamed-chunk-8-1.png" style="display: block; margin: auto;" />
