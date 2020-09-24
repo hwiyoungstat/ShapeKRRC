@@ -1,0 +1,13 @@
+Package: ShapeKRRC
+Type: Package
+Title: A package for implementing the Kernel Ridge Regression Classifier on the Planar Shape Space.
+Version: 1.0
+Date: 2020-09-23
+Author: Hwiyoung Lee
+Maintainer: Hwiyoung Lee
+      <hwiyoung.lee@stat.fsu.edu>
+Description: Implements the Kernel Ridge Regression classifier on the planar shape space described by Lee (2020).
+License: 
+Imports: Rcpp (>= 1.0.0)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.1
