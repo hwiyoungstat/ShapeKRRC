@@ -6,7 +6,7 @@ Introduction
 
 This funtion implements the methodology described in the paper
 
--   Lee, H. and Patrangenaru, V. (2020). *Extrinsic Kernel Ridge Regression Classifier for Planar Kendall Shape Space* [*\[Arxiv\]*](https://arxiv.org/abs/1912.08202) [*\[Project Page\]*](https://hwiyoungstat.github.io/ShapeKRRC.html)
+-   Lee, H. and Patrangenaru, V. (2025). *Extrinsic Kernel Ridge Regression Classifier for Planar Kendall Shape Space* [*\[Pattern Recognition\]*](https://www.sciencedirect.com/science/article/abs/pii/S0031320324010483) [*\[Project Page\]*](https://hwiyoungstat.github.io/ShapeKRRC.html)
 
 Installation
 ------------
